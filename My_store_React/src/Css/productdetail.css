@@ -1,0 +1,137 @@
+/*.product_detail{
+    margin-top: 30px;
+    padding: 30px 40px;
+    width: 100%;
+    height: 120%;
+    position: fixed;
+    z-index: 1;
+    margin-top: -20px;
+    background: rgba(0,0,0,0.24);
+}
+.product_detail .container{ 
+    margin-top: -18%;
+    margin-left: 8%;
+    width: 1000px;
+    height: 650px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.product_detail .container .closebtn{
+    margin-left: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+.product_detail .container .productbax{
+    max-width: 100%;
+    display: flex;
+    padding: 20px 30px;
+    margin-top: 20px;
+}
+.product_detail .container .productbax .img-box{
+    padding: 20px 30px;
+    width: 300px;
+    height: 400px;
+    background: #f1f1f1;
+    justify-content: center;
+}*/
+
+.product_detail {
+    margin-top: 30px;
+    padding: 30px 40px;
+    width: 100%;
+    height: 100%; /* ارتفاع 100% بدلاً من 120% */
+    position: fixed;
+    z-index: 1;
+    margin-top: -230px; 
+    background: rgba(0,0,0,0.24);
+}
+
+.product_detail .container { 
+    /* margin-top: -18%; هذا ليس مطلوبًا */
+    margin-left: 8%;
+    width: 1000px;
+    height: 630px; 
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+
+.product_detail .container .closebtn {
+    margin-left: auto; 
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.product_detail .container .productbox {
+    display: flex; /* لجعل الصورة والنص في نفس السطر */
+    padding: 20px 30px;
+    margin-top: 20px;
+    /*justify-content: start;*/
+}
+.product_detail .container .productbox .img-box {
+    padding: 20px 30px;
+    width: 300px;
+    height: 300px;
+    background: #ece8e8;
+}
+.product_detail .container .productbox .img-box img{
+    width: 250px;
+    height: 250px;
+}
+.product_detail .container .productbox .detail{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.product_detail .container .productbox .detail h2{
+    margin-top: 20px;
+    font-size: 32px;
+    color: #010f1c;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.product_detail .container .productbox .detail p{
+    margin-top: 10px;
+    color: #4a4a4a;
+}
+.product_detail .container .productbox .detail h3{
+    margin-top: 10px;
+    color: aqua;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.product_detail .container .productbox .detail button{
+    margin-top: 30px;
+    padding: 15px 60px;
+    font-size: 16px;
+    color: #fff;
+    background: #010f1c;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.product_detail .container .productbox .detail button:hover{
+    background: #0989ff;
+}
+.product_detail .container .list_image{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.product_detail .container .list_image img{
+    width: 200px;
+    height: 170px;
+    transition: 0.5s;
+}
+.product_detail .container .list_image img:hover{
+    transform: scale(1.25);
+}

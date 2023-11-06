@@ -1,0 +1,81 @@
+/* CSS Styles for the product card */
+.box1 {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 500px;
+
+}
+.box1:hover {
+    transform: translateY(-5px);
+}
+
+.img_box1 {
+    flex: 1;
+    margin-right: 20px;
+}
+.img_box1 img {
+    margin-left: 50px;
+    margin-top: 10px;
+    max-width: 75%;
+    height: auto;
+}
+
+
+.detail1 {
+    margin-top: 50px;
+    flex: 2;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.price1 {
+    font-size: 16px;
+    color: #007bff;
+}
+
+
+.btn1{
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    color: #fff;
+    background: #010f1c;
+    transition: 0.5s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background: #0989ff;
+}
+
+.cont{
+    position:absolute !important;
+    padding-left: 30%;
+}
+
+
+
+  /* Responsive layout adjustments */
+@media (max-width: 768px) {
+    .container {
+flex-direction: column;
+    }
+
+    .box {
+    margin: 10px ;
+    }
+}
