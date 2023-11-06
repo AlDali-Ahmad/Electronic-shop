@@ -1,6 +1,8 @@
 # Electronic-shop
 Online store using react js
 
+Laravel and React js are linked by API
+
 
 ## Languages Used
 - React js
