@@ -9,6 +9,9 @@ Laravel and React js are linked by API
 - Laravel
 - MySql
 
+
+
+
 <table>
   <tr>
     <td><img src="https://github.com/AlDali-Ahmad/Electronic-shop/assets/120606527/2bab4235-c543-4dee-a750-4e1c929352b1" ></td>
@@ -20,6 +23,9 @@ Laravel and React js are linked by API
     <td><img src="https://github.com/AlDali-Ahmad/Electronic-shop/assets/120606527/6c2df993-5ab5-4f99-850b-6ceff83b1237" ></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/AlDali-Ahmad/Electronic-shop/assets/120606527/cb45b833-768f-4c70-ba15-8201b7c6a1f1" width="300" height="580"></td>
+    <td><img src="https://github.com/AlDali-Ahmad/Electronic-shop/assets/120606527/83c2328e-ff40-464e-b832-147241acd9c9" ></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/AlDali-Ahmad/Electronic-shop/assets/120606527/e4aa5439-8bf3-458c-988f-23e3e7d97c86" ></td>
   </tr>
 </table>
